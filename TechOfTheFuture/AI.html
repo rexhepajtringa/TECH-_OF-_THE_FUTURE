@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="other/style.css">
+    <link rel="stylesheet" href="other/style2.css">
+
+    <title>Tech of the Future</title>
+
+    <style>
+
+
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <div class="logo">
+            <h4>Tech of the Future</h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">AI</a>
+            </li>
+            <li>
+                <a href="#">Colonisation</a>
+            </li>
+            <li>
+                <a href="#">Tourism</a>
+            </li>
+            <li>
+                <a href="#">Transportation</a>
+            </li>
+            <li>
+                <a href="#">Communication</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <script src="other/main.js"></script>
+    <div class=vrtitlepage> <h1 class=vr1text> Artificial intelligence </h1>
+    <h3 class=vr1text> The future of our society </h3>
+    <br>
+    
+    </div>
+
+    <div class="vrblockmain">
+        <div class="vrpageblock1">
+            <div class="vrleftsidetxt">  
+                <p>
+                    Virtual Reality is one of the technologies with the highest projected potential for 
+                    growth. According to the latest forecasts from IDC Research (2018), investment in VR 
+                    and AR will multiply 21-fold over the next four years, reaching 15.5 billion euros 
+                    by 2022. In addition, both technologies will be key to companies' digital transformation 
+                    plans and their spending in this area will exceed that of the consumer sector by 2019. 
+                    It is, therefore expected that by 2020 over half of the larger European companies will have a VR and RA strategy.
+                    Nowadays, the market is demanding applications that go beyond leisure, tourism or marketing 
+                    and are more affordable for users. Virtual interfaces also need to be improved to avoid 
+                    defects such as clipping, which makes certain solid objects appear as though they can be 
+                    passed through. Or to minimise the effects that VR produces in people, among them motion sickness, 
+                    which consists of a dizziness induced by the mismatch between the movement of our body and what 
+                    is being seen in the virtual world.
+                </p>        
+             </div>
+            <div class="vrrightsidetxt">
+                <p>
+                    Very soon, VR creators will extend this sensory hijacking to our other faculties – for example, 
+                    touch and smell – to deepen that sense of immersion. At the same time, the devices we use to 
+                    visit these virtual worlds will become cheaper and lighter, removing the friction that can currently be a barrier.
+                    I believe extended reality (XR) – a term that covers virtual reality (VR), augmented reality (AR), 
+                    and mixed reality (MR) – will be one of the most transformative tech trends of the next five years. 
+                    It will be enabled and augmented by other tech trends, including super-fast networking, that will 
+                    let us experience VR as a cloud service just like we currently consume music and movies. 
+                    And artificial intelligence (AI) will provide us with more personalized virtual worlds to explore, 
+                    even giving us realistic virtual characters to share our experiences with.
+                </p>
+            </div>    
+        </div>
+    </div>
+
+      
+      
+     
+
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    
+                    <a href="vr.html"> <img src="images/metaverse1.jpg" style="width:100%"> </a>
+                    <div class="text">Virtual Reality</div>
+                    
+                    </div>
+                
+                    <div class="mySlides fade">
+                    
+                    <a href="neuralink.html"><img src="images/neuralink1.jpg" style="width:100%"></a>
+                    <div class="text">Neuralink</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                    
+                    <a href="gaming.html"><img src="images/vrgaming1.jpg" style="width:100%"></a>
+                    <div class="text">Gaming</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        
+                        <a href="shopping.html"> <img src="images/vrshop2.jpg" style="width:100%"></a>
+                        <div class="text">Shopping</div>
+                    </div>
+
+                    
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+
+                <br><br>  <div class=infolist1>
+                    <h> Many uses of Virtual Reality </h>
+                    <ul>
+                        <li> Gaming
+                        </li>
+                        <li> Fashion Industry
+                        </li>
+                        <li> Military
+                        </li>
+                        <li> Medicine
+                        </li>
+                        <li> And many more....
+                        </li>
+                    </ul>
+                </div>
+        
+
+                
+
+
+            <script>
+                var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+         </div>
+    </body>
+</html>
